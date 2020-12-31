@@ -1,4 +1,0 @@
-function multiply(bum1,bum2){
-    let result = bum1 * bum2;
-    return result;
-}

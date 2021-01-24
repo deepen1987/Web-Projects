@@ -1,0 +1,39 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Bodoni Moda", serif; /* this should be the rest of the output you got from Google fonts */
+  background-color: #f7f4f7;
+}
+
+body {
+  width: 850px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+
+h1#name {
+  padding: 0px;
+  margin: 0px;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  background-color: white;
+  /*padding: 0px 10px 10px 10px;*/
+}
+
+.column2 {
+  float: left;
+  width: 75%;
+  
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
